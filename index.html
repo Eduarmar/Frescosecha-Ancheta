@@ -16,34 +16,47 @@
 
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108068823-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108068823-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-108068823-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-108068823-1');
+  </script>
 
 
-<!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window,document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
- fbq('init', '543910125999862');
-fbq('track', 'PageView');
-</script>
-<noscript>
+  <!-- Facebook Pixel Code -->
+  <script>
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '543910125999862');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
  <img height="1" width="1"
 src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
 </noscript>
-<!-- End Facebook Pixel Code -->
+  <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -52,17 +65,19 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
     <div class="">
 
       <div class="container">
-         <div class="row cabeza">
-          <h1 class="center">Frutas y verduras a domicilio</h1>
+        <div class="row cabeza">
+          <h1 class="center">Salud <br>Ahorro de tiempo <br>Promociones para empresas</h1>
           <p class="center" style="padding: 0 60px;">Paquetes con la mejor selección de frutas y verduras directo del campo a su cocina, ahorre tiempo seleccionando alguno de los siguientes frescopack</p>
 
           <div class="row valign-wrapper">
 
-            <div class="col xl3 l4 m12 s12 center">
-              <img src="images/logo redondo 2.png" class="logo responsive-img" width="100%" alt="">
+            <div class="col xl7 l4 m12 s12 center">
+              <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/R-IKO27MNuk?autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
+              </div>
             </div>
 
-            <div class="col xl3 l4 m6 s12 center">
+            <!-- <div class="col xl3 l4 m6 s12 center">
               <div class="row">
                 <i class="large material-icons" style="color:rgb(169,237,62);">shopping_basket</i>
                 <h4><strong>Frescopack 1</strong></h4>
@@ -80,7 +95,7 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
                 <h4><strong>Frescopack 3</strong></h4>
                 <a href="http://frescosecha.co/frescopack3.html" class="waves-effect waves-light btn-large">Ver contenido</a>
               </div>
-            </div>
+            </div> -->
 
 
             <div id="aweb" class="col xl4 l4 m6 s12 awebo">

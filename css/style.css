@@ -13,8 +13,14 @@ body{
 
 
 #aweber {
-  background-image: url(../images/madera.jpg);
+  background-image: url(../images/madera2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 
+}
+
+.cabeza{
+  color: white;
 }
 
 .awebo{
