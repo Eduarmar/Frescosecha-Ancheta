@@ -7,10 +7,15 @@
 
 
 .bg {
-  background-image: url(../images/fondo.png);
+  background-image: url(../images/madera2.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
+  color: white;
 }
 
+.bg{
+  padding: 90px 0;
+}
 
 .grande {
 padding-top: 30px!important;
@@ -56,18 +61,17 @@ td{
 }
 
 .awebo{
-  background-color: red;
+  background-color: rgba(100, 71, 45, 0.8);
 
 }
 
-.container{
-  width: 85%
+tbody{
+  color: #FFF;
 }
-
 
 .striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-   background-color: #c3fc92;
-   color: #000;
+   background-color: #4c3723;
+   color: #FFF;
 }
 
 tbody{
