@@ -1,22 +1,36 @@
-@font-face {
-
-      font-family:"HastaGrotesk";
-      src: url("../hasta grotesk.ttf") /* TTF file for CSS3 browsers */
-
-}
 
 body{
-
+  font-family: 'Dancing Script', cursive;
 }
 
 /*Eduardo css*/
 
 
-#aweber {
-  background-image: url(../images/madera2.jpg);
+#header{
+  background-image: url(../images/header2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  height: 404px;
   color: white;
+  padding: 30px 0;
+
+}
+
+#header h1{
+  font-size: 90px;
+  font-weight: bold;
+  background: linear-gradient(rgb(255,255,246),rgb(218,214,192));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+#aweber {
+  /*background-image: url(../images/madera2.jpg);*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*color: white;*/
 }
 
 .cabeza{
