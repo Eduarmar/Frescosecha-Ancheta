@@ -1,20 +1,74 @@
-@font-face {
 
-      font-family:"HastaGrotesk";
-      src: url("../hasta grotesk.ttf") /* TTF file for CSS3 browsers */
-
+body{
+  font-family: 'Dancing Script', cursive;
 }
 
 
-.bg {
-  background-image: url(../images/madera2.jpg);
+#header{
+  background-image: url(../images/header1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  background-position: center center;
+  height: 620px;
+  padding: 30px 0;
+
 }
 
+#header h1{
+font-size: 220px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+  height: 250px;
+}
+
+#header h3{
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 1px grey;
+  height: 70px;
+}
+
+.equipo{
+  margin-left: 30%;
+}
+
+
+#footer{
+  background-image: url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 392px;
+  color: white;
+  padding-top: 140px;
+}
+
+#footer h1{
+  font-size: 70px;
+  font-weight: bold;
+  background: linear-gradient(rgb(255,255,246),rgb(218,214,192));
+  -webkit-background-clip: text;
+  color: transparent;
+
+  text-shadow: 2px 2px 2px #c8b810;
+  height: 90px;
+}
+
+#footer h3{
+  font-size: 50px;
+  font-weight: bold;
+  background: linear-gradient(rgb(255,255,246),rgb(218,214,192));
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 2px #c8b810;
+  height: 70px;
+}
+
+
 .bg{
-  padding: 90px 0;
+  padding: 0 0;
 }
 
 .grande {
@@ -27,6 +81,11 @@ padding-right: 40px !important;
 .lista{
   font-family: 'Lobster', cursive;
 
+}
+
+.precio{
+  font-weight: bold;
+  font-size: 200px;
 }
 
 .despacho{
@@ -61,18 +120,11 @@ td{
 }
 
 .awebo{
-  background-color: rgba(100, 71, 45, 0.8);
+  background-color: rgba(96, 15, 14, 0.9);
 
 }
 
-tbody, thead{
-  color: #FFF;
-}
 
-.striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-   background-color: #4c3723;
-   color: #FFF;
-}
 
 tbody{
   font-size: 20px;
@@ -84,14 +136,26 @@ thead{
 }
 
 @media (max-width: 1550px) {
-
+  #header h1{
+  font-size: 150px;
+    height: 180px;
+  }
 }
 
 @media (max-width: 1400px) {
 
+
 }
 
 @media (max-width: 1200px) {
+  #header h1{
+  font-size: 140px;
+    height: 180px;
+  }
+
+  .precio{
+    font-size: 140px;
+  }
 
   .container{
     width: 90%
@@ -104,8 +168,17 @@ thead{
     width: 90%;
   }
 
+  #header h1{
+  font-size: 110px;
+    height: 180px;
+  }
+
   .awebo{
     margin-top: 50px;
+  }
+
+  .precio{
+    font-size: 120px;
   }
 
 }
@@ -116,10 +189,33 @@ thead{
 
 
 @media (max-width: 600px) {
+  #header h1{
+  font-size: 90px;
+    height: 200px;
+  }
 
+  #footer h1{
+    font-size: 50px;
+  }
+
+  #footer h3{
+    font-size: 40px;
+
+  }
+
+  .precio{
+    font-size: 90px;
+  }
 }
 
 @media (max-width: 500px) {
+  #header h1{
+  font-size: 50px;
+    height: 200px;
+  }
+  .precio{
+    font-size: 60px;
+  }
 
 }
 
